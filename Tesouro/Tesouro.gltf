@@ -9,8 +9,7 @@
             "name" : "Scene",
             "nodes" : [
                 0,
-                1,
-                2
+                1
             ]
         }
     ],
@@ -38,21 +37,6 @@
                 -0.5,
                 -0.5,
                 0.5
-            ]
-        },
-        {
-            "mesh" : 2,
-            "name" : "TreasureChest.001",
-            "rotation" : [
-                -0.5,
-                -0.5,
-                -0.5,
-                0.5
-            ],
-            "translation" : [
-                -0.08008286356925964,
-                0.1258745789527893,
-                2.1072158813476562
             ]
         }
     ],
@@ -107,31 +91,6 @@
                     },
                     "indices" : 9,
                     "material" : 1
-                }
-            ]
-        },
-        {
-            "name" : "Mesh.003",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 10,
-                        "NORMAL" : 11,
-                        "TEXCOORD_0" : 12,
-                        "TEXCOORD_1" : 13
-                    },
-                    "indices" : 9,
-                    "material" : 1
-                },
-                {
-                    "attributes" : {
-                        "POSITION" : 14,
-                        "NORMAL" : 15,
-                        "TEXCOORD_0" : 16,
-                        "TEXCOORD_1" : 17
-                    },
-                    "indices" : 4,
-                    "material" : 0
                 }
             ]
         }
@@ -238,74 +197,6 @@
             "componentType" : 5123,
             "count" : 354,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 10,
-            "componentType" : 5126,
-            "count" : 182,
-            "max" : [
-                0.700825572013855,
-                0.6145080924034119,
-                1.463465929031372
-            ],
-            "min" : [
-                -0.7008259296417236,
-                -0.5768589377403259,
-                0.00445603160187602
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 11,
-            "componentType" : 5126,
-            "count" : 182,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 12,
-            "componentType" : 5126,
-            "count" : 182,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 13,
-            "componentType" : 5126,
-            "count" : 182,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 14,
-            "componentType" : 5126,
-            "count" : 8,
-            "max" : [
-                0.5518584847450256,
-                0.38909420371055603,
-                0.6613864898681641
-            ],
-            "min" : [
-                -0.5518576502799988,
-                -0.41297638416290283,
-                0.5737874507904053
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 15,
-            "componentType" : 5126,
-            "count" : 8,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 16,
-            "componentType" : 5126,
-            "count" : 8,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 17,
-            "componentType" : 5126,
-            "count" : 8,
-            "type" : "VEC2"
         }
     ],
     "bufferViews" : [
@@ -358,46 +249,6 @@
             "buffer" : 0,
             "byteLength" : 708,
             "byteOffset" : 7660
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 2184,
-            "byteOffset" : 8368
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 2184,
-            "byteOffset" : 10552
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 1456,
-            "byteOffset" : 12736
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 1456,
-            "byteOffset" : 14192
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 96,
-            "byteOffset" : 15648
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 96,
-            "byteOffset" : 15744
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 64,
-            "byteOffset" : 15840
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 64,
-            "byteOffset" : 15904
         }
     ],
     "samplers" : [
@@ -408,7 +259,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 15968,
+            "byteLength" : 8368,
             "uri" : "Tesouro.bin"
         }
     ]
