@@ -1,0 +1,353 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "DenteTubarao",
+            "translation" : [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Cube",
+            "rotation" : [
+                0,
+                0.14252635836601257,
+                0,
+                0.9897910356521606
+            ],
+            "scale" : [
+                0.990545392036438,
+                0.8130401968955994,
+                0.5792536735534668
+            ],
+            "translation" : [
+                0.12423807382583618,
+                3.5140557289123535,
+                -2.0279808044433594
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Text",
+            "rotation" : [
+                0.5661587119102478,
+                -0.42363232374191284,
+                0.42363235354423523,
+                0.566158652305603
+            ],
+            "scale" : [
+                1.1950730085372925,
+                1.0183489322662354,
+                1.1515077352523804
+            ],
+            "translation" : [
+                -0.15587663650512695,
+                4.5293288230896,
+                -2.8765721321105957
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "fossil16.002",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0.748031497001648,
+                "roughnessFactor" : 0.5527864098548889
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "White.002",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Black",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "DenteTubarao",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cube",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "DenteTubarao_normals",
+            "uri" : "DenteTubarao_normals.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "DenteTubarao_albedo",
+            "uri" : "DenteTubarao_albedo.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Preto",
+            "uri" : "Preto.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1617,
+            "max" : [
+                0.3463077247142792,
+                0.16186675429344177,
+                0.31925421953201294
+            ],
+            "min" : [
+                -0.6129122376441956,
+                -0.11216480284929276,
+                -0.32486116886138916
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1617,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1617,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4497,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                0.024942398071289062,
+                1.5706713199615479,
+                1.7796167135238647
+            ],
+            "min" : [
+                -0.024942398071289062,
+                -1.5706713199615479,
+                -1.7796167135238647
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 160608,
+            "max" : [
+                1.4928817749023438,
+                0.009999999776482582,
+                1.8474253416061401
+            ],
+            "min" : [
+                0,
+                -0.009999999776482582,
+                -0.09649062901735306
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 160608,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 160608,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5125,
+            "count" : 293796,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 19404,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19404,
+            "byteOffset" : 19404
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12936,
+            "byteOffset" : 38808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8994,
+            "byteOffset" : 51744
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 60740
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 61028
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 61316
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 61508
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1927296,
+            "byteOffset" : 61580
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1927296,
+            "byteOffset" : 1988876
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1284864,
+            "byteOffset" : 3916172
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1175184,
+            "byteOffset" : 5201036
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 6376220,
+            "uri" : "DenteTubarao.bin"
+        }
+    ]
+}
